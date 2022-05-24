@@ -1,0 +1,286 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* UNIVERSAL CSS */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* margin: 0;
+    padding: 0; */
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 20px;
+    color: #fff;
+    background-color: #23303f;
+}
+
+
+a {
+    color: white;
+    font-weight:500;
+}
+
+a:hover {
+    color: 	#d4a49c;
+}
+
+.header-background{
+    position: static;
+    display: block;
+    overflow:visible;
+    top: 0;
+    height: auto;
+    min-height: 750px;
+    padding-bottom: 70px;
+    background-image: linear-gradient(180deg, rgba(35, 48, 63, 0.55),rgba(37, 65, 96, 0.75)), url(image/luca-bravo-O453M2Liufs-unsplash.jpg);
+    flex-direction: column;
+    background-position: 0px 0px, 100% 50%;
+    background-size: auto, cover;
+    white-space: normal;
+    object-fit: fill;
+}
+/* NAVBAR + HEADING */
+.sticky-nav{
+    position: sticky;
+    top: 0px;
+    padding: 20px;
+    z-index: 1;
+    align-self: auto;
+    order:0;
+    background-color: rgba(39, 170, 160, 0.50);
+}
+
+.navbar .navbar-brand a{
+    padding:1rem 0;
+    display: block;
+    text-decoration: none;
+    font-size:2.5rem;
+    color: white;
+}
+
+.navbar-brand {
+    font-size:2.5rem;
+    color: white;
+}
+
+.navbar-toggler{
+    border:none;
+    padding:10px 6px;
+    outline:none;
+}
+
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height:2px;
+    border: 1px;
+    background: #fff;
+}
+
+.navbar-toggler span + span {
+    margin-top:4px;
+    width:22px;
+}
+
+.navbar-toggler span + span + span {
+    width: 22px;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color:#d4a49c;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1.4rem 1rem;
+    font-size:  1.2rem;
+    position:relative;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.active {
+    color: #d4a49c;
+}
+
+.btn {
+    padding: 15px;
+    border-radius: 5px;
+    border: #fff solid;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #27aaa0;
+}
+
+.heading {
+    font-family: 'Imperial Script', cursive;
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+    color: #fff;
+    margin-top:180px;
+    margin-bottom: 10px;
+    min-height: 100px;
+}
+
+.intro {
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+}
+
+/*ABOUT US*/
+.column-right {
+    min-height: 750px;
+    background-image: linear-gradient(180deg, rgba(35, 48, 63, 0.55),rgba(35, 48, 63, 0.75)), url(image/oliver-plattner-U6DbF7nkNbE-unsplash.jpg);
+    background-position: 0px 0px, 100% 50%;
+    background-size: auto, cover;
+    background-attachment: scroll,scroll;
+    object-fit: cover;
+}
+
+.column-left .section-title {
+    font-family: 'Imperial Script', cursive;
+    margin-top: 50px;
+    padding: 2rem;
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.paragraph{
+    margin-top: 15px;
+    padding: 1rem 5rem 5rem 5rem;
+    font-size: 1.5rem;
+    color: #fff;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+
+/* OUR SERVICE */
+.our-service-left {
+    min-height: 750px;
+    background-image: linear-gradient(180deg, rgba(35, 48, 63, 0.55),rgba(35, 48, 63, 0.75)), url(image/marten-bjork-ANGrwTKxjlk-unsplash.jpg);
+    background-position: 0px 0px, 100% 50%;
+    background-size: auto, cover;
+    background-attachment: scroll,scroll;
+    object-fit: cover;
+}
+
+.service-section {
+    font-family: 'Imperial Script', cursive;
+    margin-top: 20px;
+    padding: 5rem 2rem 0rem 5rem;
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.service-title-1 {
+    padding: 1rem 2rem 1rem 5rem; 
+    font-size: 2rem;
+}
+
+.service-title-2{
+    padding: 1rem 5rem 1rem 1rem; 
+    font-size: 2rem;
+}
+
+.service-paragraph-1 {
+    margin-top: 15px;
+    padding: 0rem 1rem 1rem 5rem;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.service-paragraph-2 {
+    margin-top: 15px;
+    padding: 0rem 5rem 1rem 1rem;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+
+/* CONTACT FORM */
+.contact-right {
+    min-height: 750px;
+    background-image: linear-gradient(180deg, rgba(35, 48, 63, 0.55),rgba(35, 48, 63, 0.75)), url(image/sebastian-leon-prado-MgODFmLOaEY-unsplash.jpg);
+    background-position: 0px 0px, 100% 50%;
+    background-size: auto, cover;
+    background-attachment: scroll,scroll;
+    object-fit: cover;
+}
+
+.contact-section {
+    font-family: 'Imperial Script', cursive;
+    padding: 6rem 0rem 1rem 0rem;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.contact-left .paragraph{
+    padding: 0rem 3rem 0rem 0rem;
+    font-size: 1rem;
+    line-height: 1.2;
+}
+
+#contact-form {
+    margin-top:40px;
+}
+
+#contact-form .form-control{
+    border:none;
+    border-radius: 0.3rem;
+    box-shadow: none;
+    font-weight: 300;
+    outline: medium none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    line-height: 1.2;
+    width: 100%;
+    margin-bottom: 1rem;
+    transition: all 0.2s ease-in-out;
+    text-align: left;
+}
+
+#contact-form textarea.form-control {
+    min-height: 10rem;
+}
+
+#copyright{
+    background:rgba(35, 48, 63, 0.75);
+}
+
+@media (max-width: 575.98px) {
+    .service-title-2{
+        padding: 1rem 2rem 1rem 5rem; 
+    }
+    .service-paragraph-2 {
+        padding: 0rem 1rem 1rem 5rem;
+    }
+
+    .paragraph{
+        font-size: 2.5vmax;
+        padding: 1rem 2rem 5rem 2rem;
+        line-height: normal;
+    }
+}
+
